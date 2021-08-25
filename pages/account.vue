@@ -12,7 +12,7 @@
                 <div class="firstImg">
                   <img src="~/assets/logo/github-icon.svg" alt />
                   <a
-                    href="https://github.com/ponsima"
+                    href=""
                     class="display-1 font-weight-regular huga"
                   >GitHub</a>
                 </div>
@@ -20,13 +20,13 @@
 
               <li>
                 <img src="~/assets/logo/facebook.svg" alt />
-                <a href="https://qiita.com/ponsima" class="display-1 font-weight-regular">facebook</a>
+                <a href="" class="display-1 font-weight-regular">facebook</a>
               </li>
 
               <li>
                 <img src="~/assets/logo/wantedly_mark.png" alt="wantedlyIcon" />
                 <a
-                  href="https://www.wantedly.com/users/103275557"
+                  href=""
                   class="display-1 font-weight-regular huga"
                 >Wantedly</a>
               </li>
@@ -34,9 +34,9 @@
                 &emsp;ご連絡の際は、下記のメールアドレスをクリックし
                 「御社名」「お名前」「メールアドレス」「内容」を添えて送信ください。
               </p>
-              <a href="mailto:shimadamasato411@gmail.com">
+              <a href="">
                 <v-icon large>mail</v-icon>
-                <span class="mail font-weight-medium">shimadamasato411@gmail.com</span>
+                <span class="mail font-weight-medium"></span>
               </a>
             </ul>
           </div>
