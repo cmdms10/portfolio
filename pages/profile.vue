@@ -11,15 +11,6 @@
             <p class="section-desc font-weight-light display-1">
               Shimada Masato
             </p>
-            <div class="sns">
-              <span class="sns-logo" v-for="logo in logos">
-                <a :href="logo.url" target="_blank">
-                  <v-icon :size="size" :color="color">{{
-                    logo.sns_name
-                  }}</v-icon>
-                </a>
-              </span>
-            </div>
           </div>
           <div class="two-column-desc">
             <div class="font-weight-thin headline">
@@ -27,14 +18,7 @@
             </div>
             <p class="text">
               &emsp;はじめまして。HAL東京 IT学部
-              高度情報学科を専攻している4年制4年の島田 雅人
-              <a
-                href="https://twitter.com/masato13495"
-                rel="noopener"
-                target="_blank"
-                title="Twitter"
-                >(＠masato13495)</a
-              >と申します。(21卒予定)
+              高度情報学科を専攻している4年制4年の島田 雅人と申します。(21卒予定)
               <br />&emsp;将来はwebエンジニアを目指し、インターネットを通じて多くの人の生活に役立てる人になりたいと考えています。
               <br />&emsp;現在では、AWSを使ったwebアプリのインフラについて勉強しており、冗長性や負荷分散を持たせた本格的な構築に挑戦しています。また、最近ではTerraformに目をつけ今までの設計を自分なりのコードに落とし込み、構築と破棄を繰り返しながら勉強しています。
               <br />&emsp;自分の知見を広めるため、勉強会にも積極的に参加し、最近では『AWSでWebサービスのインフラとネットワーク構築技術』,『FirebaseでTODOリストの実装』,『Wireshark&パケット解析』など様々な勉強会に出席しています。
@@ -83,21 +67,7 @@ export default {
     return {
       size: "40px",
       icon: "30px",
-      color: "blue",
-      logos: [
-        {
-          // sns_name: "mdi-github-circle",
-          url: "https://github.com/ponsima",
-        },
-        {
-          // sns_name: "mdi-twitterr",
-          url: "https://twitter.com/masato13495",
-        },
-        {
-          // sns_name: "mdi-facebook-box",
-          url: "https://www.facebook.com/profile.php?id=100041545650708",
-        },
-      ],
+      color: "blue"
     };
   },
 };
@@ -130,18 +100,6 @@ section {
   }
   .section-desc {
     margin-top: 10px;
-    text-align: center;
-  }
-
-  .sns {
-    .sns-logo {
-      a {
-        text-decoration: none;
-        justify-content: center;
-      }
-      width: 100%;
-      text-align: center;
-    }
     text-align: center;
   }
 
