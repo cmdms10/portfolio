@@ -7,7 +7,7 @@
         </div>
         <v-app>
           <div class="card-wrapper">
-            <div class="card" v-for="item in items">
+            <div class="card" v-for="item in items" :key="item.name">
               <div class="skill-icon">
                 <img :src="item.logo" />
               </div>
@@ -15,12 +15,12 @@
                 <h3 class="title font-weight-regular">{{ item.name }}</h3>
                 <div class="rating">
                   <v-rating
-                    :v-model="rating"
+                    v-model="rating"
                     readonly="readonly"
                     :empty-icon="emptyIcon"
                     :full-icon="fullIcon"
                     :half-icon="halfIcon"
-                    :half-increments="harfIncrements"
+                    :half-increments="halfIncrements"
                     :hover="hover"
                     :size="size"
                     :dense="dense"
@@ -61,7 +61,7 @@ export default {
       emptyIcon: "mdi-star-outline",
       fullIcon: "mdi-star",
       halfIcon: "mdi-star-half",
-      harfIncrements: true,
+      halfIncrements: true,
       hover: true,
       length: 10,
       rating: 2,

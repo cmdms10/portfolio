@@ -22,19 +22,25 @@
             <p>制作期間：約4~5ヶ月</p>
             <p>使用言語・技術：</p>
             <ul>
-              <li>フロントエンド</li>
-              <p class="text">
-                HTML
-                <br />CSS
-                <br />JS(jQuery)
-              </p>
-              <li>サーバサイド</li>
-              <p class="text">PHP(Laravel)</p>
-              <li>ミドルウェア</li>
-              <p class="text">
-                MySQL
-                <br />Docker
-              </p>
+              <li>
+                フロントエンド
+                <p class="text">
+                  HTML
+                  <br />CSS
+                  <br />JS(jQuery)
+                </p>
+              </li>
+              <li>
+                サーバサイド
+                <p class="text">PHP(Laravel)</p>
+              </li>
+              <li>
+                ミドルウェア
+                <p class="text">
+                  MySQL
+                  <br />Docker
+                </p>
+              </li>
             </ul>
 
             <p>『FLOVIS』とは：</p>
@@ -69,18 +75,22 @@
             <p>制作期間：約1ヵ月</p>
             <p>使用言語・技術：</p>
             <ul>
-              <li>フロントエンド</li>
-              <p class="text">
-                HTML
-                <br />CSS
-                <br />Nuxt.js
-                <br />Vuetify
-              </p>
-              <li>インフラ</li>
-              <p class="text">
-                Dockder
-                <br />CloudRun
-              </p>
+              <li>
+                フロントエンド
+                <p class="text">
+                  HTML
+                  <br />CSS
+                  <br />Nuxt.js
+                  <br />Vuetify
+                </p>
+              </li>
+              <li>
+                インフラ
+                <p class="text">
+                  Docker
+                  <br />CloudRun
+                </p>
+              </li>
             </ul>
             <p>こだわりポイント</p>
             <ul>
@@ -136,17 +146,22 @@
             <p>制作期間：約3ヶ月</p>
             <p>使用言語・技術</p>
             <ul>
-              <li>フロントエンド</li>
-              <p class="text">
-                HTML
-                <br />CSS( materializecss, SCSS)
-                <br />JS(jQuery)
-              </p>
-
-              <li>サーバサイド</li>
-              <p class="text">PHP(Laravel)</p>
-              <li>その他</li>
-              <p class="text">Terraform</p>
+              <li>
+                フロントエンド
+                <p class="text">
+                  HTML
+                  <br />CSS( materializecss, SCSS)
+                  <br />JS(jQuery)
+                </p>
+              </li>
+              <li>
+                サーバサイド
+                <p class="text">PHP(Laravel)</p>
+              </li>
+              <li>
+                その他
+                <p class="text">Terraform</p>
+              </li>
             </ul>
             <p>TerraMakerとは</p>
             <p class="text">「クラウドをより身近に。」をテーマに外部に自分のサイトを公開したい人に便利なツールを作成し提供するWEBサービスです。</p>
