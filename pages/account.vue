@@ -30,14 +30,18 @@
                   class="display-1 font-weight-regular huga"
                 >Wantedly</a>
               </li>
-              <p class="text">
-                &emsp;ご連絡の際は、下記のメールアドレスをクリックし
-                「御社名」「お名前」「メールアドレス」「内容」を添えて送信ください。
-              </p>
-              <a href="">
-                <v-icon large>mail</v-icon>
-                <span class="mail font-weight-medium"></span>
-              </a>
+              <li>
+                <p class="text">
+                  &emsp;ご連絡の際は、下記のメールアドレスをクリックし
+                  「御社名」「お名前」「メールアドレス」「内容」を添えて送信ください。
+                </p>
+              </li>
+              <li>
+                <a href="">
+                  <v-icon large>mail</v-icon>
+                  <span class="mail font-weight-medium"></span>
+                </a>
+              </li>
             </ul>
           </div>
         </div>
